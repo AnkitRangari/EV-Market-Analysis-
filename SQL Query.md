@@ -49,7 +49,7 @@ ORDER BY penetration_rate DESC limit 5
 ) AS four;
 ```
 
-3)Quarterly trends based on sales volume for the top 5 EV maker (4-wheelers) from 2022 to 2024? 
+3) Quarterly trends based on sales volume for the top 5 EV maker (4-wheelers) from 2022 to 2024? 
 
 ```bash
 WITH top_5_makers AS (
